@@ -18,7 +18,7 @@ else
 
  if (enterNumber == 100000) cout << "Сто тысяч ";
 
- if ((enterNumber / 10000) % 10 == 1) cout << "Десять ";
+ if ((enterNumber / 10000) % 10 == 1) cout << "Десять тысяч ";
  else if ((enterNumber / 10000) % 10 == 2) cout << "Двадцать ";
  else if ((enterNumber / 10000) % 10 == 3) cout << "Тридцать ";
  else if ((enterNumber / 10000) % 10 == 4) cout << "Сорок ";
